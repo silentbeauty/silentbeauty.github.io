@@ -1,16 +1,19 @@
-
 /* Load Fonts */
+
 @font-face {
 	font-family: 'SunKissed';
-	src: url('fonts/sunkissed-regular-webfont.eot); /* IE9 Compact Modes */
-	src: url('fonts/sunkissed-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	src: url('fonts/sunkissed-regular-webfont.eot); 
+	src: url('fonts/sunkissed-regular-webfont.eot?#iefix') format('embedded-opentype'), 
 		 url('fonts/sunkissed-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
 		 url('fonts/sunkissed-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
 		 url('fonts/sunkissed-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ 
 		 url('fonts/sunkissed-regular-webfont.svg') format('icon'); /* iOS legacy */
 }
 
+
+
 /* Change Headlines */
+
 h1 {
 	font-family: 'SunKissed', script;
 	font-size: 36px;
