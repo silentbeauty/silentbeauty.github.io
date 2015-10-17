@@ -1,0 +1,8 @@
+h1 {
+	font-family: sans-serif; /*designates font*/
+	font-size: 4em; /*makes headline larger */
+    text-align: center; /*centers headline*/
+	color: #fa8bf2; /*makes headline a lovely shade of pink*/
+    text-decoration: #f6c525 underline; /*underlines headline in mustard yellow*/
+    background-color:  black; /*makes headline background black*/
+}
