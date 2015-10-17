@@ -1,13 +1,21 @@
-/* Load Fonts */
+/* Remember Fonts 
 
-@font-face {
-	font-family: 'SunKissed';
-	src: url('fonts/sunkissed-regular-webfont.eot'); 
-	src: url('fonts/sunkissed-regular-webfont.eot?#iefix') format('embedded-opentype'), 
-		 url('fonts/sunkissed-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-		 url('fonts/sunkissed-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-		 url('fonts/sunkissed-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ 
-		 url('fonts/sunkissed-regular-webfont.svg') format('icon'); /* iOS legacy */
+font-family: 'Josefin Slab', serif;
+font-family: 'Vollkorn', serif;
+font-family: 'Leckerli One', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+/* Page Layout */
+
+body {
+	float: left;
+	width: 100%;
+	background-color: #feffff;
+	color: #f9a620
 }
 
 
@@ -15,7 +23,8 @@
 /* Change Headlines */
 
 h1 {
-	font-family: 'SunKissed', script;
+	font-family: 'Covered By Your Grace', cursive;
 	font-size: 36px;
 	color: #fa8bf2;
 }
+
