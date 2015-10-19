@@ -85,6 +85,6 @@ function textColour () {
 			$("#orange").html(" - Black Text");
 			$("#text-change7").css("color", "#000000");
 			$("body").css("color", "#f9a620");
-			$("text-change7").off("click");
+			$("#text-change7").off("click");
 		});
 }
