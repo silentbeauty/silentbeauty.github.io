@@ -44,39 +44,45 @@
 			</div>
 			<div class="row">
 				<div class="col-md-9">
-					<p>I've created this site using some design elements that I love - handwritten fonts, bright cheery colours, a top nav & social media bar, and vibrant full width pictures.  It's quite likely that you don't like the same things as I do, so I've given you so buttons that will allow you to change the way you see this site.  You can find them over in the right sidebar.</p>
+					<p>I've created this site using some design elements that I love - handwritten fonts, bright cheery colours, a top nav & social media bar, and vibrant full width pictures.  It's quite likely that you don't like the same things as I do, so I've given you some buttons that will allow you to change the way you see this site.  You can find them over in the right sidebar or below this text depending on your screen size.</p>
 				</div>
 				<div class="col-md-3" id="sidebar">
-					<ul class="nav nav-transformations">
-						<li><button id="text-change1" onclick="styleChangeSerif();">
-							<span class="glyphicon glyphicon-font"></span> - Serif
-						</button></li>
-						<li><button id="text-change2" onclick="styleChangeSansSerif();">
-							<span class="glyphicon glyphicon-font"></span> - Sans Serif
-						</button></li>
-						<li><button id="text-change3" onclick="styleChangeScript();">
-							<span class="glyphicon glyphicon-font"></span> - Handwriting
-						</button></li>
-						<li><button id="text-change4" onclick="textSmall();">
-							<span class="glyphicon glyphicon-text-size"></span> - Small Text 
-						</button></li>
-						<li><button id="text-change5" onclick="textMedium();">
-							<span class="glyphicon glyphicon-text-size"></span> - Medium Text
-						</button></li>
-						<li><button id="text-change6" onclick="textLarge();">
-							<span class="glyphicon glyphicon-text-size"></span>  - Large Text
-						</button></li>
-						<li><button id="text-change7" onclick="textColour ();">
-							<span class="glyphicon glyphicon-text-color"></span><span id="orange"> - Black Text</span>
-						</button></li>
-					</ul>
+					<button id="text-change1" onclick="styleChangeSerif();">
+						<span class="glyphicon glyphicon-font"></span> - Serif
+					</button>
+					<button id="text-change2" onclick="styleChangeSansSerif();">
+						<span class="glyphicon glyphicon-font"></span> - Sans Serif
+					</button>
+					<button id="text-change3" onclick="styleChangeScript();">
+						<span class="glyphicon glyphicon-font"></span> - Handwriting
+					</button>
+					<button id="text-change4" onclick="textSmall();">
+						<span class="glyphicon glyphicon-text-size"></span> - Small Text 
+					</button>
+					<button id="text-change5" onclick="textMedium();">
+						<span class="glyphicon glyphicon-text-size"></span> - Medium Text
+					</button>
+					<button id="text-change6" onclick="textLarge();">
+						<span class="glyphicon glyphicon-text-size"></span>  - Large Text
+					</button>
+					<button id="text-change7" onclick="textBlack();">
+						<span class="glyphicon glyphicon-text-color"></span> - Black Text
+					</button>
+					<button id="text-change8" onclick="textOrange();">
+						<span class="glyphicon glyphicon-text-color"></span> - Orange Text
+					</button>
 				</div>
 			</div>
 			<div class="row" id="updated-on">
-				<p> This page was last modified on: 
-					<script type="text/javascript">
-						document.write(document.lastModified);
-					</script>
+				<div class="col-md-9">
+					<p> This page was last modified on: 
+						<script type="text/javascript">
+							document.write(document.lastModified);
+						</script>
+				</div>
+				<div class="col-md-3">
+					<a id="toTop" href="#">Return to Top</a>
+				</div>
 			</div>
 		</div>
 	</body>

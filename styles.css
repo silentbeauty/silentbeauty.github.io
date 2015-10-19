@@ -1,16 +1,4 @@
-/* Remember Google Web Fonts 
-
-font-family: 'Josefin Slab', serif;
-font-family: 'Vollkorn', serif;
-font-family: 'Leckerli One', cursive;
-font-family: 'Covered By Your Grace', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-
-*/
-
 /* Call Social Media Icon Font */
-
 
 @font-face {
     font-family: 'socicon';
@@ -45,6 +33,10 @@ h1 {
 
 p {
 	text-align: left;
+}
+
+a {
+	color: #fa8bf2;
 }
 
 #navigation a {
@@ -107,10 +99,14 @@ p {
 #sidebar {
 	display: inline-block;
 	font-size: 24px;
+	color: #f9a620;
 }
 
-#photo-gallery img {
-	
+img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 15px;
+	max-width: 99%;
 }
 
 button {
@@ -152,6 +148,29 @@ button {
 	color: #000000;
 }
 
+#text-change8 {
+	color: #feffff;
+	background-color: #f9a620;
+}
+
 #updated-on p {
 	text-align: center;
+}
+
+#small-gallery {
+	
+}
+
+#large-gallery {
+	
+}
+
+#full-width {
+	background-color: #fa8bf2;
+	color: #feffff;
+}
+
+#toTop {
+  text-align: center;
+  color: #fa8bf2;
 }

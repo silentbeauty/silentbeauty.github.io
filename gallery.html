@@ -43,33 +43,53 @@
 				<h1>Silentbeauty's Photo Gallery</h1>
 			</div>
 			<div class="row">
-				<p>These are my photographs, but you get to choose how you'd prefer to view them: </p>
+				<p>These are some of my favourite photographs, but you get to choose how you'd prefer to view them: </p>
 			</div>
 			<div class="row" id="options">
-				<div class="col-md-4" id="small-gallery">
-					<button>
+				<div class="col-md-4">
+					<button id="small-gallery" onclick="smallGallery();" >
 						<span class="glyphicon glyphicon-th"></span> Small Gallery
 					</button>
 				</div>
-				<div class="col-md-4" id="large-gallery">
-					<button>
+				<div class="col-md-4">
+					<button id="large-gallery" onclick="largeGallery();" >
 						<span class="glyphicon glyphicon-th-large"></span> Large Gallery 
 					</button>
 				</div>
-				<div class="col-md-4" id="full-width">				
-					<button>
+				<div class="col-md-4">				
+					<button id="full-width" onclick="fullWidth();" >
 						<span class="glyphicon glyphicon-picture"></span> Full Width Images
 					</button>
 				</div>
 			</div>
-			<div class="row" id="photo-gallery">
-				
+			<div class="row" id="gallery">
+				<img src="images/img-1.jpg" />
+				<img src="images/img-2.jpg" />
+				<img src="images/img-3.jpg" />
+				<img src="images/img-4.jpg" />
+				<img src="images/img-5.jpg" />
+				<img src="images/img-6.jpg" />
+				<img src="images/img-7.jpg" />
+				<img src="images/img-8.jpg" />
+				<img src="images/img-9.jpg" />
+				<img src="images/img-10.jpg" />
+				<img src="images/img-11.jpg" />
+				<img src="images/img-12.jpg" />
+				<img src="images/img-13.jpg" />
+				<img src="images/img-14.jpg" />
+				<img src="images/img-15.jpg" />
+				<img src="images/img-16.jpg" />
 			</div>
 			<div class="row" id="updated-on">
-				<p> This page was last modified on: 
-					<script type="text/javascript">
-						document.write(document.lastModified);
-					</script>
+				<div class="col-md-9">
+					<p> This page was last modified on: 
+						<script type="text/javascript">
+							document.write(document.lastModified);
+						</script>
+				</div>
+				<div class="col-md-3">
+					<a id="toTop" href="#">Return to Top</a>
+				</div>
 			</div>
 		</div>
 	</body>

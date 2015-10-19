@@ -1,5 +1,4 @@
-
-function styleChangeSerif(){
+function styleChangeSerif() {
 	console.log("font change serif");
 	$("#text-change1").css("color","#feffff");
 	$("#text-change1").css("background-color", "#fa8bf2");
@@ -51,7 +50,7 @@ function textSmall () {
 	$("#text-change6").css("background-color", "#feffff");
 };
 
-function textMedium () {
+function textMedium() {
 	console.log("font size medium");
 	$("#text-change5").css("color", "#feffff");
 	$("#text-change5").css("background-color", "#fa8bf2");
@@ -63,7 +62,7 @@ function textMedium () {
 	$("#text-change6").css("background-color", "#feffff");
 };
 
-function textLarge () {
+function textLarge() {
 	console.log("font size large");
 	$("#text-change6").css("color", "#feffff");
 	$("#text-change6").css("background-color", "#fa8bf2");
@@ -75,16 +74,53 @@ function textLarge () {
 	$("#text-change5").css("background-color", "#feffff");
 };
 
-function textColour () {
+function textBlack() {
 	console.log("black text");
-	$("#orange").html(" - Orange Text");
-	$("#text-change7").css("color", "#f9a620");
+	$("#text-change7").css("background-color", "#000000");
+	$("#text-change7").css("color", "#feffff");
 	$("body").css("color","#000000");
-		$("#text-change7").click(function () {
-			console.log("orange text");
-			$("#orange").html(" - Black Text");
-			$("#text-change7").css("color", "#000000");
-			$("body").css("color", "#f9a620");
-			$("#text-change7").off("click");
-		});
+	$("#text-change8").css("background-color", "#feffff");
+	$("#text-change8").css("color", "#f9a620");
+};
+	
+function textOrange() {
+	console.log("orange text");
+	$("#text-change8").css("background-color", "#f9a620");
+	$("#text-change8").css("color", "#feffff");
+	$("body").css("color", "#f9a620");
+	$("#text-change7").css("background-color", "#feffff");
+	$("#text-change7").css("color", "#000000");
+};
+
+function smallGallery() {
+	console.log("small gallery");
+	$("img").css("max-width", "24%");
+	$("#small-gallery").css("background-color", "#fa8bf2");
+	$("#small-gallery").css("color", "#feffff");
+	$("#large-gallery").css("color","#f9a620");
+	$("#large-gallery").css("background-color", "#feffff");
+	$("#full-width").css("color","#f9a620");
+	$("#full-width").css("background-color", "#feffff");
+};
+
+function largeGallery() {
+	console.log("large gallery");
+	$("img").css("max-width", "49%");
+	$("#large-gallery").css("background-color", "#fa8bf2");
+	$("#large-gallery").css("color", "#feffff");
+	$("#small-gallery").css("color","#f9a620");
+	$("#small-gallery").css("background-color", "#feffff");
+	$("#full-width").css("color","#f9a620");
+	$("#full-width").css("background-color", "#feffff");
+}
+
+function fullWidth() {
+	console.log("full width");
+	$("img").css("max-width", "99%");
+	$("#full-width").css("background-color", "#fa8bf2");
+	$("#full-width").css("color", "#feffff");
+	$("#large-gallery").css("color","#f9a620");
+	$("#large-gallery").css("background-color", "#feffff");
+	$("#small-gallery").css("color","#f9a620");
+	$("#small-gallery").css("background-color", "#feffff");
 }
