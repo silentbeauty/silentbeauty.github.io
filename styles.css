@@ -1,4 +1,4 @@
-/* Remember Fonts 
+/* Remember Google Web Fonts 
 
 font-family: 'Josefin Slab', serif;
 font-family: 'Vollkorn', serif;
@@ -9,20 +9,149 @@ font-family: 'Montserrat', sans-serif;
 
 */
 
+/* Call Social Media Icon Font */
+
+
+@font-face {
+    font-family: 'socicon';
+    src: url('fonts/socicon.eot');
+    src: url('fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('fonts/socicon.woff') format('woff'),
+         url('fonts/socicon.ttf') format('truetype'),
+         url('fonts/socicon.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
 /* Page Layout */
 
 body {
 	background-color: #feffff;
-	color: #f9a620
+	color: #f9a620;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 24px;
 }
-
-
 
 /* Change Headlines */
 
 h1 {
-	font-family: 'Covered By Your Grace', cursive;
+	font-family: 'Leckerli One', cursive;
 	font-size: 36px;
+	color: #fa8bf2;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+p {
+	text-align: left;
+}
+
+#navigation a {
+	color: #f9a620;
+	text-align: left;
+
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+#navigation a:hover {
+	color: #fa8bf2;
+	background-color: #feffff;
+}
+
+.nav-primary {
+	font-family: 'Covered By Your Grace', cursive;
+}
+.nav-primary > li {
+  float: left;
+}
+.nav-primary > li > a {
+  border-radius: 4px;
+}
+.nav-primary > li + li {
+  margin-left: 2px;
+}
+
+#navigation #current {
 	color: #fa8bf2;
 }
 
+#social_media {
+	text-align: right;
+	font-family: 'socicon';
+	font-size: 24px;
+}
+
+#social_media a {
+	color:f9a620;
+	font-family: 'socicon';
+	font-size: 24px;
+}
+
+#social_media a:hover {
+	color: #fa8bf2;
+	background-color: #feffff;
+}
+
+.nav-social-media > li {
+  float: right;
+}
+.nav-social-media  > li > a {
+  border-radius: 4px;
+}
+.nav-social-media > li + li {
+  margin-left: 2px;
+}
+
+#sidebar {
+	display: inline-block;
+	font-size: 24px;
+}
+
+#photo-gallery img {
+	
+}
+
+button {
+	width: 99%;
+	height: 50px;
+	background-color: #feffff;
+	margin-bottom: 15px;
+}
+
+#text-change1 {
+	font-family: 'Josefin Slab', serif;
+}
+
+#text-change2 {
+	font-family: 'Open Sans', sans-serif;	
+}
+
+#text-change3 { 
+	font-family: 'Covered By Your Grace', cursive;
+	color: #feffff;
+	background-color: #fa8bf2;
+}
+
+#text-change4 {
+	font-size: 16px;
+}
+
+#text-change5 {
+	font-size: 24px;
+	color: #feffff;
+	background-color: #fa8bf2;
+}
+
+#text-change6 {
+	font-size: 32px;
+}
+
+#text-change7 {
+	color: #000000;
+}
+
+#updated-on p {
+	text-align: center;
+}

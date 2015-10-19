@@ -1,0 +1,76 @@
+<html>
+    <head>
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,700|Covered+By+Your+Grace|Leckerli+One|Vollkorn:400,700|Josefin+Slab:400,700,600' rel='stylesheet' type='text/css'>
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+   </head>
+    <body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6" id="navigation">
+					<ul class="nav nav-primary">
+						<li>
+							<a href="index.html">
+								<span class="glyphicon glyphicon-home"></span> Home
+							</a>
+						</li>
+						<li>
+							<a href="gallery.html" id="current">
+								<span class="glyphicon glyphicon-picture"></span> Gallery
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<span class="glyphicon glyphicon-info-sign"></span> About
+							</a>
+						</li>
+					</ul>
+				</div>	
+				<div class="col-md-6" id="social_media">
+					<ul class="nav nav-social-media">
+						<li><a href="http://twitter.com/silentbeauty">a</a></li>
+						<li><a href="http://google.com/+ErinLeeSilentbeauty">c</a></li>
+						<li><a href="http://instagram.com/silentbeauty/">x</a></li>
+						<li><a href="http://www.pinterest.com/silentbeauty/">d</a></li>
+						<li><a href="http://github.com/silentbeauty">Q</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<h1>Silentbeauty's Photo Gallery</h1>
+			</div>
+			<div class="row">
+				<p>These are my photographs, but you get to choose how you'd prefer to view them: </p>
+			</div>
+			<div class="row" id="options">
+				<div class="col-md-4" id="small-gallery">
+					<button>
+						<span class="glyphicon glyphicon-th"></span> Small Gallery
+					</button>
+				</div>
+				<div class="col-md-4" id="large-gallery">
+					<button>
+						<span class="glyphicon glyphicon-th-large"></span> Large Gallery 
+					</button>
+				</div>
+				<div class="col-md-4" id="full-width">				
+					<button>
+						<span class="glyphicon glyphicon-picture"></span> Full Width Images
+					</button>
+				</div>
+			</div>
+			<div class="row" id="photo-gallery">
+				
+			</div>
+			<div class="row" id="updated-on">
+				<p> This page was last modified on: 
+					<script type="text/javascript">
+						document.write(document.lastModified);
+					</script>
+			</div>
+		</div>
+	</body>
+</html>

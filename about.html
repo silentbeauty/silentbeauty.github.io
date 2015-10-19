@@ -7,13 +7,13 @@
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="scripts.js"></script>
    </head>
-    <body id=text-body-change> 
+    <body>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6" id="navigation">
 					<ul class="nav nav-primary">
 						<li>
-							<a href="index.html" id="current">
+							<a href="index.html">
 								<span class="glyphicon glyphicon-home"></span> Home
 							</a>
 						</li>
@@ -23,7 +23,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="about.html">
+							<a href="about.html" id="current">
 								<span class="glyphicon glyphicon-info-sign"></span> About
 							</a>
 						</li>
@@ -40,36 +40,16 @@
 				</div>
 			</div>
 			<div class="row">
-				<h1 id="header-change">Responsive website development and design</h1>
+				<h1>Responsive website development and design</h1>
 			</div>
 			<div class="row">
 				<div class="col-md-9">
 					<p>I've created this site using some design elements that I love - handwritten fonts, bright cheery colours, a top nav & social media bar, and vibrant full width pictures.  It's quite likely that you don't like the same things as I do, so I've given you so buttons that will allow you to change the way you see this site.  You can find them over in the right sidebar.</p>
 				</div>
 				<div class="col-md-3" id="sidebar">
-					<ul class="nav nav-transformations">
-						<li><button id="text-change1" onclick="styleChangeSerif();">
-							<span class="glyphicon glyphicon-font"></span> - Serif
-						</button></li>
-						<li><button id="text-change2" onclick="styleChangeSansSerif();">
-							<span class="glyphicon glyphicon-font"></span> - Sans Serif
-						</button></li>
-						<li><button id="text-change3" onclick="styleChangeScript();">
-							<span class="glyphicon glyphicon-font"></span> - Handwriting
-						</button></li>
-						<li><button id="text-change4" onclick="textSmall();">
-							<span class="glyphicon glyphicon-text-size"></span> - Small Text 
-						</button></li>
-						<li><button id="text-change5" onclick="textMedium();">
-							<span class="glyphicon glyphicon-text-size"></span> - Medium Text
-						</button></li>
-						<li><button id="text-change6" onclick="textLarge();">
-							<span class="glyphicon glyphicon-text-size"></span>  - Large Text
-						</button></li>
-						<li><button id="text-change7" onclick="textColour ();">
-							<span class="glyphicon glyphicon-text-color"></span><span id="orange"> - Black Text</span>
-						</button></li>
-					</ul>
+					<button type="button" class="btn btn-default btn-lg">
+						<span class="glyphicon glyphicon-star"></span> Star 
+					</button>
 				</div>
 			</div>
 			<div class="row" id="updated-on">
